@@ -110,27 +110,97 @@ export default function Header() {
             </Link>
           </div>
 
-          {/* Mobile Menu Button */}
+          {/* Mobile Menu - CSS Only Solution */}
           <div className="md:hidden">
-            <button
-              type="button"
-              className="text-gray-700 hover:text-indigo-600"
-              aria-label="Menüyü aç"
-            >
-              <svg
-                className="h-6 w-6"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M4 6h16M4 12h16M4 18h16"
-                />
-              </svg>
-            </button>
+            <details className="relative">
+              <summary className="list-none cursor-pointer p-2">
+                <span className="sr-only">Menüyü aç</span>
+                <svg
+                  className="h-6 w-6 text-gray-700 hover:text-indigo-600 transition-colors"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
+                </svg>
+              </summary>
+              <div className="fixed left-0 right-0 top-16 bg-white border-t border-gray-200 shadow-lg z-50 max-h-[calc(100vh-4rem)] overflow-y-auto">
+                <div className="px-4 pt-4 pb-6 space-y-1">
+                  {/* Solutions Mobile Menu */}
+                  <div className="px-3 py-2">
+                    <div className="text-gray-700 font-semibold mb-2">Çözümler</div>
+                    <div className="pl-4 space-y-1">
+                      <Link
+                        href="/solutions/restaurant-pos"
+                        className="block px-3 py-2 text-gray-600 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-colors"
+                      >
+                        Restoran POS
+                      </Link>
+                      <Link
+                        href="/solutions/cafe-pos"
+                        className="block px-3 py-2 text-gray-600 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-colors"
+                      >
+                        Kafe POS
+                      </Link>
+                      <Link
+                        href="/solutions/fast-food-pos"
+                        className="block px-3 py-2 text-gray-600 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-colors"
+                      >
+                        Fast Food POS
+                      </Link>
+                      <Link
+                        href="/solutions/bar-pos"
+                        className="block px-3 py-2 text-gray-600 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-colors"
+                      >
+                        Bar POS
+                      </Link>
+                      <Link
+                        href="/solutions/hotel-pos"
+                        className="block px-3 py-2 text-gray-600 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-colors"
+                      >
+                        Otel POS
+                      </Link>
+                    </div>
+                  </div>
+
+                  <Link
+                    href="/features"
+                    className="block px-3 py-2 text-gray-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg font-medium transition-colors"
+                  >
+                    Özellikler
+                  </Link>
+                  <Link
+                    href="/pricing"
+                    className="block px-3 py-2 text-gray-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg font-medium transition-colors"
+                  >
+                    Fiyatlandırma
+                  </Link>
+                  <Link
+                    href="/blog"
+                    className="block px-3 py-2 text-gray-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg font-medium transition-colors"
+                  >
+                    Blog
+                  </Link>
+                  <Link
+                    href="/resources/faq"
+                    className="block px-3 py-2 text-gray-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg font-medium transition-colors"
+                  >
+                    Destek
+                  </Link>
+                  <Link
+                    href="/pricing"
+                    className="block px-3 py-2 bg-indigo-600 text-white rounded-lg font-semibold hover:bg-indigo-700 transition-colors text-center mt-4"
+                  >
+                    Ücretsiz Dene
+                  </Link>
+                </div>
+              </div>
+            </details>
           </div>
         </div>
       </nav>
