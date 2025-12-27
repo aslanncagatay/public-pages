@@ -62,7 +62,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ]
 
-  // Ürün sayfaları - QR Menü, Online Sipariş, Entegrasyonlar
+  // Ürün sayfaları - QR Menü, Online Sipariş
   const productPages: MetadataRoute.Sitemap = [
     {
       url: `${baseUrl}/qr-menu`,
@@ -75,12 +75,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: currentDate,
       changeFrequency: 'monthly',
       priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/integrations`,
-      lastModified: currentDate,
-      changeFrequency: 'monthly',
-      priority: 0.8,
     },
   ]
 

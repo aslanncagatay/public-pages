@@ -35,6 +35,15 @@ const blogListingSchema = {
       "@type": "ImageObject",
       url: "https://quickorder.com.tr/logo.png",
     },
+    sameAs: [
+      "https://www.facebook.com/people/QuickOrder/",
+      "https://x.com/QuickorderPostr",
+      "https://linkedin.com/company/quickorderpossistemi",
+      "https://www.instagram.com/quickorderpossistemleri/",
+      "https://www.youtube.com/@QuickorderAdisyonSistemi",
+      "https://t.me/quickorderpos",
+      "https://whatsapp.com/channel/0029VazJewhJJhzajgDKnf1p",
+    ],
   },
 };
 

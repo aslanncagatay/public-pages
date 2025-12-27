@@ -13,6 +13,8 @@ export default function robots(): MetadataRoute.Robots {
           '/admin/',        // Admin panelini indexleme
           '/_next/',        // Next.js dahili dosyalarını indexleme
           '/private/',      // Özel sayfaları indexleme
+          '/login',         // Giriş sayfasını indexleme
+          '/dashboard/',    // Dashboard sayfalarını indexleme
         ],
       },
       {
@@ -22,6 +24,8 @@ export default function robots(): MetadataRoute.Robots {
         disallow: [
           '/api/',
           '/admin/',
+          '/login',
+          '/dashboard/',
         ],
       },
       {
@@ -31,6 +35,19 @@ export default function robots(): MetadataRoute.Robots {
         disallow: [
           '/api/',
           '/admin/',
+          '/login',
+          '/dashboard/',
+        ],
+      },
+      {
+        // Yandexbot için özel kurallar
+        userAgent: 'Yandexbot',
+        allow: '/',
+        disallow: [
+          '/api/',
+          '/admin/',
+          '/login',
+          '/dashboard/',
         ],
       },
     ],
