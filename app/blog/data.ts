@@ -41,7 +41,7 @@ Modern restoran işletmeciliğinde POS sistemi artık bir lüks değil, zorunlul
 
 ### 1.1. Kayıt İşlemi
 
-1. YourBrand POS web sitesine gidin
+1. Quick Order web sitesine gidin
 2. "Ücretsiz Dene" butonuna tıklayın
 3. E-posta adresinizi ve şifrenizi girin
 4. İşletme bilgilerinizi doldurun (işletme adı, sektör, lokasyon sayısı)
@@ -172,7 +172,7 @@ Personelinizi eğitin:
 - Ödeme alma
 - Rapor görüntüleme
 
-YourBrand POS, ücretsiz online eğitim videoları ve canlı destek sunar.
+Quick Order, ücretsiz online eğitim videoları ve canlı destek sunar.
 
 ## Adım 8: Canlıya Geçiş
 
@@ -208,7 +208,7 @@ Canlıya geçmeden önce:
 
 Restoran POS sistemi kurulumu, doğru adımlar izlendiğinde 5-10 dakika içinde tamamlanabilir. Sisteminizi kurduktan sonra, sipariş alma süreniz önemli ölçüde azalacak ve operasyonel verimliliğiniz artacaktır.
 
-**İhtiyacınız olursa:** [Destek sayfamızdan](https://yourbrand.com/support) veya [iletişim sayfamızdan](https://yourbrand.com/contact) bize ulaşabilirsiniz.
+**İhtiyacınız olursa:** [Destek sayfamızdan](https://quickorder.com.tr/support) veya [iletişim sayfamızdan](https://quickorder.com.tr/contact) bize ulaşabilirsiniz.
 
 ## İlgili Kaynaklar
 
@@ -231,7 +231,7 @@ Restoran POS sistemi kurulumu, doğru adımlar izlendiğinde 5-10 dakika içinde
   {
     slug: "en-iyi-pos-sistemleri-2024-karsilastirmasi",
     title: "En İyi POS Sistemleri 2024: Detaylı Karşılaştırma ve İnceleme",
-    description: "2024 yılının en iyi POS sistemleri karşılaştırması. Adisyo, Menulux, YourBrand POS ve diğer popüler sistemlerin özellikleri, fiyatları ve avantajları.",
+    description: "2024 yılının en iyi POS sistemleri karşılaştırması. Adisyo, Menulux, Quick Order ve diğer popüler sistemlerin özellikleri, fiyatları ve avantajları.",
     content: `
 # En İyi POS Sistemleri 2024: Detaylı Karşılaştırma ve İnceleme
 
@@ -247,10 +247,10 @@ Doğru POS sistemi seçimi için şu faktörleri değerlendirmelisiniz:
 - **Entegrasyonlar:** Muhasebe, e-ticaret, delivery platformları
 - **Ölçeklenebilirlik:** İşletmeniz büyüdükçe sistemin büyümesi
 
-## 1. YourBrand POS
+## 1. Quick Order
 
 ### Genel Bakış
-YourBrand POS, modern restoran işletmeleri için tasarlanmış bulut tabanlı bir POS sistemidir.
+Quick Order, modern restoran işletmeleri için tasarlanmış bulut tabanlı bir POS sistemidir.
 
 ### Güçlü Yönler
 ✅ **Uygun Fiyatlandırma:** Başlangıç planı ₺299/ay
@@ -339,7 +339,7 @@ Restapp, özellikle online sipariş ve delivery entegrasyonları ile bilinir.
 
 ## Karşılaştırma Tablosu
 
-| Özellik | YourBrand POS | Adisyo | Menulux | Restapp |
+| Özellik | Quick Order | Adisyo | Menulux | Restapp |
 |---------|---------------|--------|---------|---------|
 | Başlangıç Fiyatı | ₺299/ay | ₺500-800/ay | ₺600-900/ay | Komisyon bazlı |
 | Kurulum Süresi | 5 dakika | 1-2 gün | 1 gün | 1 gün |
@@ -352,7 +352,7 @@ Restapp, özellikle online sipariş ve delivery entegrasyonları ile bilinir.
 
 ## Hangi POS Sistemini Seçmelisiniz?
 
-### YourBrand POS Seçin Eğer:
+### Quick Order Seçin Eğer:
 - ✅ Bütçe dostu bir çözüm arıyorsanız
 - ✅ Hızlı kurulum istiyorsanız
 - ✅ Modern teknoloji öncelikliyse
@@ -370,11 +370,11 @@ Restapp, özellikle online sipariş ve delivery entegrasyonları ile bilinir.
 
 ## Sonuç
 
-2024 yılında POS sistemi seçerken, fiyatlandırma, özellikler ve destek kalitesi kritik faktörlerdir. YourBrand POS, uygun fiyatlandırması, kapsamlı özellikleri ve 7/24 desteği ile küçük ve orta ölçekli işletmeler için ideal bir seçimdir.
+2024 yılında POS sistemi seçerken, fiyatlandırma, özellikler ve destek kalitesi kritik faktörlerdir. Quick Order, uygun fiyatlandırması, kapsamlı özellikleri ve 7/24 desteği ile küçük ve orta ölçekli işletmeler için ideal bir seçimdir.
 
 **Daha detaylı karşılaştırmalar için:**
-- [Adisyo vs YourBrand POS](/resources/comparisons/adisyo-vs-yourbrand)
-- [Menulux vs YourBrand POS](/resources/comparisons/menulux-vs-yourbrand)
+- [Adisyo vs Quick Order](/resources/comparisons/adisyo-vs-yourbrand)
+- [Menulux vs Quick Order](/resources/comparisons/menulux-vs-yourbrand)
 
 ## İlgili Kaynaklar
 
@@ -545,7 +545,7 @@ Modern POS sistemleri, diğer sistemlerle entegre olabilmelidir:
 
 ## Sonuç
 
-Bu 10 temel özellik, modern restoran işletmeciliği için kritiktir. YourBrand POS, tüm bu özellikleri tek bir platformda sunar.
+Bu 10 temel özellik, modern restoran işletmeciliği için kritiktir. Quick Order, tüm bu özellikleri tek bir platformda sunar.
 
 **Hemen deneyin:** [14 gün ücretsiz deneme](/pricing) ile başlayın.
 
@@ -570,11 +570,11 @@ Bu 10 temel özellik, modern restoran işletmeciliği için kritiktir. YourBrand
   {
     slug: "istanbul-restoran-dijital-donusum-hikayesi",
     title: "İstanbul'daki Bir Restoranın Dijital Dönüşüm Hikayesi: %200 Gelir Artışı",
-    description: "İstanbul'da faaliyet gösteren bir restoranın YourBrand POS ile dijital dönüşüm hikayesi. 3 ayda %200 gelir artışı nasıl sağlandı?",
+    description: "İstanbul'da faaliyet gösteren bir restoranın Quick Order ile dijital dönüşüm hikayesi. 3 ayda %200 gelir artışı nasıl sağlandı?",
     content: `
 # İstanbul'daki Bir Restoranın Dijital Dönüşüm Hikayesi: %200 Gelir Artışı
 
-Bu yazıda, İstanbul'da faaliyet gösteren bir restoranın YourBrand POS ile dijital dönüşüm hikayesini paylaşıyoruz. 3 ayda %200 gelir artışı nasıl sağlandı? İşte hikayenin detayları.
+Bu yazıda, İstanbul'da faaliyet gösteren bir restoranın Quick Order ile dijital dönüşüm hikayesini paylaşıyoruz. 3 ayda %200 gelir artışı nasıl sağlandı? İşte hikayenin detayları.
 
 ## Restoran Hakkında
 
@@ -611,7 +611,7 @@ Restoran, geleneksel yöntemlerle çalışıyordu:
 - Yüksek komisyon oranları (%25-30)
 - Müşteri verilerine erişim yok
 
-## Çözüm: YourBrand POS
+## Çözüm: Quick Order
 
 ### Kurulum Süreci
 
@@ -704,14 +704,14 @@ Restoran, geleneksel yöntemlerle çalışıyordu:
 
 ## Müşteri Yorumu
 
-> "YourBrand POS ile çalışmaya başladıktan sonra, işletmemizde ciddi bir dönüşüm yaşadık. Sipariş alma süremiz yarıya indi, stok kayıplarımız azaldı ve en önemlisi gelirimiz 3 ayda ikiye katlandı. Personelimiz de sistemi çok sevdi, kullanımı çok kolay. Kesinlikle tavsiye ederim."
+> "Quick Order ile çalışmaya başladıktan sonra, işletmemizde ciddi bir dönüşüm yaşadık. Sipariş alma süremiz yarıya indi, stok kayıplarımız azaldı ve en önemlisi gelirimiz 3 ayda ikiye katlandı. Personelimiz de sistemi çok sevdi, kullanımı çok kolay. Kesinlikle tavsiye ederim."
 > 
 > **— Ahmet Kaya, Lezzet Durağı Restoranı Sahibi**
 
 ## Öğrenilen Dersler
 
 ### 1. Doğru Sistem Seçimi
-Doğru POS sistemi seçimi, işletmenin başarısı için kritiktir. YourBrand POS, uygun fiyatlandırması ve kapsamlı özellikleri ile ideal bir seçim oldu.
+Doğru POS sistemi seçimi, işletmenin başarısı için kritiktir. Quick Order, uygun fiyatlandırması ve kapsamlı özellikleri ile ideal bir seçim oldu.
 
 ### 2. Personel Eğitimi
 Personel eğitimi, başarılı geçişin anahtarıdır. Doğru eğitim ile personel, sistemi hızlıca benimsedi.
@@ -799,7 +799,7 @@ QR (Quick Response) menü, müşterilerin akıllı telefonları ile QR kodu okut
 
 ### Adım 1: POS Sistemi Seçimi
 
-QR menü sistemi, genellikle POS sisteminin bir parçasıdır. YourBrand POS, QR menü özelliğini tüm planlarda sunar.
+QR menü sistemi, genellikle POS sisteminin bir parçasıdır. Quick Order, QR menü özelliğini tüm planlarda sunar.
 
 ### Adım 2: Menü Oluşturma
 
@@ -893,7 +893,7 @@ QR kodları şu yerlere yerleştirebilirsiniz:
 
 ## QR Menü Sistemi Fiyatlandırması
 
-YourBrand POS'ta QR menü özelliği, tüm planlarda dahildir:
+Quick Order'ta QR menü özelliği, tüm planlarda dahildir:
 - **Başlangıç Planı:** QR menü dahil
 - **Profesyonel Plan:** QR menü + online sipariş dahil
 - **Kurumsal Plan:** Tüm özellikler dahil
@@ -911,7 +911,7 @@ YourBrand POS'ta QR menü özelliği, tüm planlarda dahildir:
 
 ## Sonuç
 
-QR menü sistemi, modern restoran işletmeciliği için vazgeçilmez bir araçtır. YourBrand POS ile QR menü sistemini kolayca kurabilir ve müşteri deneyimini artırabilirsiniz.
+QR menü sistemi, modern restoran işletmeciliği için vazgeçilmez bir araçtır. Quick Order ile QR menü sistemini kolayca kurabilir ve müşteri deneyimini artırabilirsiniz.
 
 **Hemen başlayın:** [QR Menü özelliklerini inceleyin](/qr-menu) veya [14 gün ücretsiz deneme](/pricing) ile başlayın.
 

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Sayfa Bulunamadı | 404 Hatası - YourBrand POS",
+  title: "Sayfa Bulunamadı | 404 Hatası - Quick Order",
   description: "Aradığınız sayfa bulunamadı. Ana sayfaya dönün veya aşağıdaki bağlantıları kullanarak aradığınızı bulun.",
   robots: {
     index: false,

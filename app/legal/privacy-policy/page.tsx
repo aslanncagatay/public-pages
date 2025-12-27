@@ -3,16 +3,16 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Gizlilik Politikası | Veri Güvenliği ve Gizlilik",
-  description: "YourBrand POS gizlilik politikası. Kişisel verilerinizin nasıl toplandığı, kullanıldığı ve korunduğu hakkında detaylı bilgi. KVKK uyumlu gizlilik politikası.",
+  description: "Quick Order gizlilik politikası. Kişisel verilerinizin nasıl toplandığı, kullanıldığı ve korunduğu hakkında detaylı bilgi. KVKK uyumlu gizlilik politikası.",
   alternates: {
-    canonical: "https://yourbrand.com/legal/privacy-policy",
+    canonical: "https://quickorder.com.tr/legal/privacy-policy",
   },
   openGraph: {
     title: "Gizlilik Politikası | Veri Güvenliği ve Gizlilik",
-    description: "YourBrand POS gizlilik politikası. Kişisel verilerinizin nasıl korunduğu hakkında bilgi edinin.",
+    description: "Quick Order gizlilik politikası. Kişisel verilerinizin nasıl korunduğu hakkında bilgi edinin.",
     type: "website",
     locale: "tr_TR",
-    url: "https://yourbrand.com/legal/privacy-policy",
+    url: "https://quickorder.com.tr/legal/privacy-policy",
   },
   robots: {
     index: true,
@@ -45,7 +45,7 @@ export default function PrivacyPolicyPage() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Giriş</h2>
             <p className="text-gray-700 leading-relaxed">
-              YourBrand POS (&quot;Biz&quot;, &quot;Bizim&quot;, &quot;Şirket&quot;) olarak, kullanıcılarımızın gizliliğine büyük önem veriyoruz. Bu Gizlilik Politikası, web sitemizi ve POS hizmetlerimizi kullandığınızda topladığımız, kullandığımız ve paylaştığımız bilgileri açıklamaktadır. Bu politikayı okumak, hizmetlerimizi kullanarak bu politikayı kabul ettiğiniz anlamına gelir.
+              Quick Order (&quot;Biz&quot;, &quot;Bizim&quot;, &quot;Şirket&quot;) olarak, kullanıcılarımızın gizliliğine büyük önem veriyoruz. Bu Gizlilik Politikası, web sitemizi ve POS hizmetlerimizi kullandığınızda topladığımız, kullandığımız ve paylaştığımız bilgileri açıklamaktadır. Bu politikayı okumak, hizmetlerimizi kullanarak bu politikayı kabul ettiğiniz anlamına gelir.
             </p>
           </section>
 
@@ -159,7 +159,7 @@ export default function PrivacyPolicyPage() {
               <li>Otomatik karar verme süreçlerine itiraz etme hakkı</li>
             </ul>
             <p className="text-gray-700 leading-relaxed mt-4">
-              Bu haklarınızı kullanmak için <Link href="/contact" className="text-indigo-600 hover:underline">iletişim sayfamızdan</Link> bize ulaşabilir veya privacy@yourbrand.com adresine e-posta gönderebilirsiniz.
+              Bu haklarınızı kullanmak için <Link href="/contact" className="text-indigo-600 hover:underline">iletişim sayfamızdan</Link> bize ulaşabilir veya info@quickorder.com.tr adresine e-posta gönderebilirsiniz.
             </p>
           </section>
 
@@ -190,9 +190,9 @@ export default function PrivacyPolicyPage() {
               Gizlilik politikamız hakkında sorularınız veya endişeleriniz varsa, lütfen bizimle iletişime geçin:
             </p>
             <p className="text-gray-700 leading-relaxed mt-4">
-              <strong>E-posta:</strong> privacy@yourbrand.com<br />
-              <strong>Adres:</strong> [Şirket Adresi]<br />
-              <strong>Telefon:</strong> [Telefon Numarası]
+              <strong>E-posta:</strong> info@quickorder.com.tr<br />
+              <strong>Adres:</strong> ÜNİVERSİTELER MAH. 1596 CAD. TEKNOKENT KULUÇKA MERKEZ BİNASI NO: 6 C İÇ KAPI NO: 10 ÇANKAYA/ ANKARA<br />
+              <strong>Telefon:</strong> +90 532 449 29 48
             </p>
             <p className="text-gray-700 leading-relaxed mt-4">
               Ayrıca <Link href="/contact" className="text-indigo-600 hover:underline">iletişim sayfamızdan</Link> da bize ulaşabilirsiniz.

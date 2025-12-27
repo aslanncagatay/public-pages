@@ -6,14 +6,14 @@ export const metadata: Metadata = {
   title: "POS Sistemi Blog | Restoran İşletmeciliği Rehberleri ve İpuçları",
   description: "Restoran, kafe ve bar işletmeciliği hakkında güncel blog yazıları. POS sistemi rehberleri, karşılaştırmalar, ipuçları ve başarı hikayeleri.",
   alternates: {
-    canonical: "https://yourbrand.com/blog",
+    canonical: "https://quickorder.com.tr/blog",
   },
   openGraph: {
     title: "POS Sistemi Blog | Restoran İşletmeciliği Rehberleri ve İpuçları",
     description: "Restoran, kafe ve bar işletmeciliği hakkında güncel blog yazıları. POS sistemi rehberleri ve ipuçları.",
     type: "website",
     locale: "tr_TR",
-    url: "https://yourbrand.com/blog",
+    url: "https://quickorder.com.tr/blog",
   },
   twitter: {
     card: "summary_large_image",
@@ -25,15 +25,15 @@ export const metadata: Metadata = {
 const blogListingSchema = {
   "@context": "https://schema.org",
   "@type": "Blog",
-  name: "YourBrand POS Blog",
+  name: "Quick Order Blog",
   description: "Restoran, kafe ve bar işletmeciliği hakkında güncel blog yazıları",
-  url: "https://yourbrand.com/blog",
+  url: "https://quickorder.com.tr/blog",
   publisher: {
     "@type": "Organization",
-    name: "YourBrand POS",
+    name: "Quick Order",
     logo: {
       "@type": "ImageObject",
-      url: "https://yourbrand.com/logo.png",
+      url: "https://quickorder.com.tr/logo.png",
     },
   },
 };

@@ -6,14 +6,14 @@ export const metadata: Metadata = {
   title: "Fast Food POS Sistemi | Hızlı Servis Restoranları İçin POS",
   description: "Hızlı servis restoranları için optimize edilmiş POS sistemi. Drive-thru desteği, hızlı sipariş alma, paket servis ve detaylı raporlama. Fast food işletmenizi büyütün.",
   alternates: {
-    canonical: "https://yourbrand.com/solutions/fast-food-pos",
+    canonical: "https://quickorder.com.tr/solutions/fast-food-pos",
   },
   openGraph: {
     title: "Fast Food POS Sistemi | Hızlı Servis Restoranları İçin POS",
     description: "Hızlı servis restoranları için optimize edilmiş POS sistemi. Drive-thru desteği ve hızlı sipariş alma.",
     type: "website",
     locale: "tr_TR",
-    url: "https://yourbrand.com/solutions/fast-food-pos",
+    url: "https://quickorder.com.tr/solutions/fast-food-pos",
   },
   twitter: {
     card: "summary_large_image",
@@ -86,11 +86,19 @@ export default function FastFoodPOSPage() {
                   </Link>
                 </div>
               </div>
-              <div className="relative h-96 lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
-                <div className="absolute inset-0 bg-gradient-to-br from-red-400 to-orange-600 flex items-center justify-center">
-                  <span className="text-white/50 text-lg">Fast Food POS Görseli</span>
+              <div className="hidden md:block">
+                <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
+                  <div className="rounded-xl p-6 relative h-96 lg:h-[500px] overflow-hidden">
+                    <Image
+                      src="/web/orders.png"
+                      alt="Fast Food POS Sistemi - Drive-Thru ve Hızlı Sipariş Yönetimi Ekranı"
+                      fill
+                      className="object-contain"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      priority
+                    />
+                  </div>
                 </div>
-                {/* Placeholder for fast food image */}
               </div>
             </div>
           </div>
@@ -143,9 +151,17 @@ export default function FastFoodPOSPage() {
                   </li>
                 </ul>
               </div>
-              <div className="relative h-96 rounded-2xl overflow-hidden shadow-xl">
-                <div className="absolute inset-0 bg-gradient-to-br from-red-400 to-orange-500 flex items-center justify-center">
-                  <span className="text-white/50 text-lg">Çözüm Görseli</span>
+              <div className="hidden md:block">
+                <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
+                  <div className="rounded-xl p-6 relative h-96 overflow-hidden">
+                    <Image
+                      src="/mobile/orders.jpeg"
+                      alt="Fast Food POS - Mobil Sipariş Yönetimi, Drive-Thru ve Paket Servis"
+                      fill
+                      className="object-contain"
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                    />
+                  </div>
                 </div>
               </div>
             </div>

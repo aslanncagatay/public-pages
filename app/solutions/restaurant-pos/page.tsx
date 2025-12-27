@@ -3,22 +3,22 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Restoran POS Sistemi | Tam Servis Restoranlar İçin POS Yazılımı",
-  description: "Tam servis restoranlar için gelişmiş POS sistemi. Masa yönetimi, rezervasyon sistemi, mutfak entegrasyonu ve detaylı raporlama. Restoran işletmenizi dijitalleştirin.",
+  title: "Restoran POS Sistemi | Sipariş ve Kurye Yönetimi ile POS Yazılımı",
+  description: "Sipariş ve kurye yönetimini kolaylaştıran restoran POS sistemi. Gelişmiş sipariş takibi, akıllı kurye yönetimi, QR menü, online sipariş ve rezervasyon sistemi. Restoran işletmenizi dijitalleştirin.",
   alternates: {
-    canonical: "https://yourbrand.com/solutions/restaurant-pos",
+    canonical: "https://quickorder.com.tr/solutions/restaurant-pos",
   },
   openGraph: {
-    title: "Restoran POS Sistemi | Tam Servis Restoranlar İçin POS Yazılımı",
-    description: "Tam servis restoranlar için gelişmiş POS sistemi. Masa yönetimi, rezervasyon sistemi ve mutfak entegrasyonu.",
+    title: "Restoran POS Sistemi | Sipariş ve Kurye Yönetimi ile POS Yazılımı",
+    description: "Sipariş ve kurye yönetimini kolaylaştıran restoran POS sistemi. Gelişmiş sipariş takibi, akıllı kurye yönetimi, QR menü, online sipariş ve rezervasyon sistemi.",
     type: "website",
     locale: "tr_TR",
-    url: "https://yourbrand.com/solutions/restaurant-pos",
+    url: "https://quickorder.com.tr/solutions/restaurant-pos",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Restoran POS Sistemi | Tam Servis Restoranlar İçin POS Yazılımı",
-    description: "Tam servis restoranlar için gelişmiş POS sistemi. Masa yönetimi, rezervasyon sistemi ve mutfak entegrasyonu.",
+    title: "Restoran POS Sistemi | Sipariş ve Kurye Yönetimi ile POS Yazılımı",
+    description: "Sipariş ve kurye yönetimini kolaylaştıran restoran POS sistemi. Gelişmiş sipariş takibi, akıllı kurye yönetimi, QR menü, online sipariş ve rezervasyon sistemi.",
   },
 };
 
@@ -33,14 +33,17 @@ const restaurantSchema = {
     price: "299",
     priceCurrency: "TRY",
   },
-  description: "Tam servis restoranlar için gelişmiş POS sistemi. Masa yönetimi, rezervasyon sistemi ve mutfak entegrasyonu.",
+  description: "Sipariş ve kurye yönetimini kolaylaştıran restoran POS sistemi. Gelişmiş sipariş takibi, akıllı kurye yönetimi, QR menü, online sipariş ve rezervasyon sistemi.",
   featureList: [
-    "Masa Yönetimi",
+    "Gelişmiş Sipariş Yönetimi",
+    "Akıllı Kurye Yönetimi",
+    "Teslimat Takibi",
+    "QR Menü Entegrasyonu",
+    "Online Sipariş Sistemi",
     "Rezervasyon Sistemi",
+    "Masa Yönetimi",
     "Mutfak Entegrasyonu",
     "Detaylı Raporlama",
-    "QR Menü",
-    "Online Sipariş",
   ],
 };
 
@@ -66,10 +69,10 @@ export default function RestaurantPOSPage() {
                   Restoran POS Sistemi
                 </h1>
                 <p className="text-xl sm:text-2xl text-white/90 mb-4 font-medium">
-                  Masa yönetimi, rezervasyon sistemi ve mutfak entegrasyonu ile restoran işletmenizi profesyonelleştirin.
+                  Sipariş ve kurye yönetimini kolaylaştıran, QR menü, online sipariş, rezervasyon sistemi ve masa yönetimi ile restoran işletmenizi profesyonelleştirin.
                 </p>
                 <p className="text-lg text-white/80 mb-8">
-                  Sipariş alma sürenizi %60 azaltın, müşteri memnuniyetini artırın ve operasyonel verimliliğinizi maksimize edin.
+                  Sipariş takibi, kurye yönetimi ve teslimat süreçlerini tek panelden yönetin. QR menü ile temassız sipariş, online sipariş sistemi ve otomatik rezervasyon yönetimi. Sipariş alma sürenizi %60 azaltın, müşteri memnuniyetini artırın.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Link
@@ -86,18 +89,19 @@ export default function RestaurantPOSPage() {
                   </Link>
                 </div>
               </div>
-              <div className="relative h-96 lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
-                <div className="absolute inset-0 bg-gradient-to-br from-indigo-400 to-purple-600 flex items-center justify-center">
-                  <span className="text-white/50 text-lg">Restoran POS Görseli</span>
+              <div className="hidden md:block">
+                <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
+                  <div className="rounded-xl p-6 relative h-96 lg:h-[500px] overflow-hidden">
+                    <Image
+                      src="/web/create-order.png"
+                      alt="Restoran POS Sistemi - Masa Yönetimi ve Floor Plan Görünümü"
+                      fill
+                      className="object-contain"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      priority
+                    />
+                  </div>
                 </div>
-                {/* Placeholder for restaurant image */}
-                {/* <Image
-                  src="/images/restaurant-pos.jpg"
-                  alt="Restoran POS Sistemi"
-                  fill
-                  className="object-cover"
-                  priority
-                /> */}
               </div>
             </div>
           </div>
@@ -117,8 +121,8 @@ export default function RestaurantPOSPage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                     </svg>
                     <div>
-                      <h3 className="font-semibold text-gray-900 mb-1">Masa Yönetimi Karmaşası</h3>
-                      <p className="text-gray-600">Masa durumlarını takip etmek, rezervasyonları yönetmek ve servis sürelerini optimize etmek zorlaşıyor.</p>
+                      <h3 className="font-semibold text-gray-900 mb-1">Sipariş Yönetimi Karmaşası</h3>
+                      <p className="text-gray-600">Gelen siparişleri takip etmek, durumlarını güncellemek ve teslimat süreçlerini yönetmek zorlaşıyor. Manuel takip hatalara yol açıyor.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
@@ -126,8 +130,8 @@ export default function RestaurantPOSPage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                     </svg>
                     <div>
-                      <h3 className="font-semibold text-gray-900 mb-1">Mutfak-Ön Yüz İletişim Sorunları</h3>
-                      <p className="text-gray-600">Siparişlerin mutfağa ulaşmasında gecikmeler, yanlış anlaşılmalar ve koordinasyon eksiklikleri yaşanıyor.</p>
+                      <h3 className="font-semibold text-gray-900 mb-1">Kurye Yönetimi Zorluğu</h3>
+                      <p className="text-gray-600">Kurye atama, rota optimizasyonu ve teslimat takibi manuel yapılıyor. Kurye durumlarını anlık takip etmek mümkün olmuyor.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
@@ -135,8 +139,8 @@ export default function RestaurantPOSPage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                     </svg>
                     <div>
-                      <h3 className="font-semibold text-gray-900 mb-1">Rezervasyon Yönetimi</h3>
-                      <p className="text-gray-600">Telefonla rezervasyon almak, takip etmek ve no-show&apos;ları yönetmek zaman alıyor.</p>
+                      <h3 className="font-semibold text-gray-900 mb-1">Teslimat Süreçleri</h3>
+                      <p className="text-gray-600">Teslimat sürelerini tahmin etmek, müşterilere bilgi vermek ve gecikmeleri yönetmek zorlaşıyor. Müşteri şikayetleri artıyor.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
@@ -144,17 +148,24 @@ export default function RestaurantPOSPage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                     </svg>
                     <div>
-                      <h3 className="font-semibold text-gray-900 mb-1">Raporlama Eksikliği</h3>
-                      <p className="text-gray-600">Hangi masaların daha karlı olduğunu, hangi saatlerde yoğunluk yaşandığını bilmek zor.</p>
+                      <h3 className="font-semibold text-gray-900 mb-1">Çoklu Platform Entegrasyonu</h3>
+                      <p className="text-gray-600">Farklı sipariş platformlarından gelen siparişleri tek panelden yönetmek ve senkronize etmek karmaşık hale geliyor.</p>
                     </div>
                   </li>
                 </ul>
               </div>
-              <div className="relative h-96 rounded-2xl overflow-hidden shadow-xl">
-                <div className="absolute inset-0 bg-gradient-to-br from-green-400 to-blue-600 flex items-center justify-center">
-                  <span className="text-white/50 text-lg">Çözüm Görseli</span>
+              <div className="hidden md:block">
+                <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
+                  <div className="rounded-xl p-6 relative h-96 overflow-hidden">
+                    <Image
+                      src="/mobile/create-order.jpeg"
+                      alt="Restoran POS - Sipariş ve Kurye Yönetimi, Mobil Sipariş Takibi"
+                      fill
+                      className="object-contain"
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                    />
+                  </div>
                 </div>
-                {/* Placeholder for solution image */}
               </div>
             </div>
           </div>
@@ -168,31 +179,32 @@ export default function RestaurantPOSPage() {
                 Restoran POS Sistemi Özellikleri
               </h2>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                Tam servis restoranlar için özel olarak tasarlanmış özellikler
+                Sipariş ve kurye yönetimini kolaylaştıran, tam servis restoranlar için özel olarak tasarlanmış özellikler
               </p>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow border border-gray-100">
                 <div className="w-14 h-14 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl flex items-center justify-center mb-6">
                   <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Gelişmiş Masa Yönetimi</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Gelişmiş Sipariş Yönetimi</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Masa durumlarını gerçek zamanlı takip edin. Boş, dolu, rezerve ve temizlik durumlarını tek ekrandan yönetin. Masa haritası görünümü ile görsel yönetim.
+                  Tüm siparişleri tek panelden takip edin. Sipariş durumları, hazırlık süreleri ve teslimat bilgileri gerçek zamanlı güncellenir. Online, telefon ve masadan gelen siparişler tek ekranda.
                 </p>
               </div>
 
               <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow border border-gray-100">
                 <div className="w-14 h-14 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl flex items-center justify-center mb-6">
                   <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Rezervasyon Sistemi</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Akıllı Kurye Yönetimi</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Online ve telefon rezervasyonlarını tek platformda yönetin. Müşteri geçmişi, tercihler ve özel notlar. Otomatik hatırlatma SMS&apos;leri.
+                  Kurye atama, rota optimizasyonu ve anlık takip. Kurye konumları, teslimat süreleri ve durumları gerçek zamanlı görüntülenir. Otomatik kurye atama ile verimlilik artar.
                 </p>
               </div>
 
@@ -240,7 +252,31 @@ export default function RestaurantPOSPage() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Online Sipariş Sistemi</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Kendi online sipariş sisteminiz. Delivery platformlarına bağımlı kalmadan müşterilerinizle doğrudan iletişim. <Link href="/online-ordering" className="text-indigo-600 hover:underline">Online sipariş özellikleri</Link> hakkında daha fazla.
+                  Kendi online sipariş sisteminiz. Delivery platformlarına bağımlı kalmadan müşterilerinizle doğrudan iletişim. Siparişler otomatik sisteme düşer, teslimat takibi yapılır. <Link href="/online-ordering" className="text-indigo-600 hover:underline">Online sipariş özellikleri</Link> hakkında daha fazla.
+                </p>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow border border-gray-100">
+                <div className="w-14 h-14 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl flex items-center justify-center mb-6">
+                  <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Rezervasyon Sistemi</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Online ve telefon rezervasyonlarını tek platformda yönetin. Müşteri geçmişi, tercihler ve özel notlar. Otomatik hatırlatma SMS&apos;leri. Masa durumları gerçek zamanlı güncellenir, no-show&apos;lar takip edilir.
+                </p>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow border border-gray-100">
+                <div className="w-14 h-14 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl flex items-center justify-center mb-6">
+                  <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Teslimat Takibi ve Bildirimleri</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Müşteriler siparişlerinin durumunu anlık takip edebilir. Kurye atandı, yolda, teslim edildi bildirimleri otomatik gönderilir. Müşteri memnuniyeti artar, şikayetler azalır.
                 </p>
               </div>
             </div>
@@ -262,52 +298,53 @@ export default function RestaurantPOSPage() {
               <div className="flex items-start">
                 <div className="flex-shrink-0 w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center mr-4">
                   <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">%60 Daha Hızlı Sipariş Alma</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Sipariş Yönetimi %70 Kolaylaşır</h3>
                   <p className="text-gray-600">
-                    Tablet tabanlı sipariş alma ile sipariş alma süreniz %60 azalır. Müşteriler daha az bekler, daha mutlu olur.
+                    Tüm siparişleri tek panelden yönetin. Online, telefon ve masadan gelen siparişler otomatik senkronize olur. Sipariş takibi ve durum güncellemeleri anlık yapılır.
                   </p>
                 </div>
               </div>
               <div className="flex items-start">
                 <div className="flex-shrink-0 w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center mr-4">
                   <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">%25 Daha Fazla Gelir</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Kurye Verimliliği %50 Artar</h3>
                   <p className="text-gray-600">
-                    Upselling önerileri, müşteri tercihleri ve akıllı menü yönetimi ile ortalama sepet değerini artırın.
+                    Otomatik kurye atama ve rota optimizasyonu ile teslimat süreleri kısalır. Kurye takibi ve anlık bildirimler ile operasyonel verimlilik maksimize edilir.
                   </p>
                 </div>
               </div>
               <div className="flex items-start">
                 <div className="flex-shrink-0 w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center mr-4">
                   <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Mutfak Verimliliği Artışı</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Teslimat Süreleri %40 Kısalır</h3>
                   <p className="text-gray-600">
-                    Siparişler anında mutfağa ulaşır, hazırlık süreleri optimize edilir. Mutfak-ön yüz koordinasyonu sorunsuz.
+                    Akıllı rota optimizasyonu ve otomatik kurye atama ile teslimat süreleri önemli ölçüde kısalır. Müşteriler daha hızlı siparişlerini alır.
                   </p>
                 </div>
               </div>
               <div className="flex items-start">
                 <div className="flex-shrink-0 w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center mr-4">
                   <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Müşteri Memnuniyeti Artışı</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Müşteri Şikayetleri %60 Azalır</h3>
                   <p className="text-gray-600">
-                    Hızlı servis, doğru siparişler ve kişiselleştirilmiş deneyim ile müşteri memnuniyeti %40 artar.
+                    Anlık sipariş takibi, kurye bildirimleri ve şeffaf teslimat süreçleri ile müşteri şikayetleri önemli ölçüde azalır. Müşteri memnuniyeti artar.
                   </p>
                 </div>
               </div>

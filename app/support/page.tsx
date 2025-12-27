@@ -2,17 +2,17 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Destek Merkezi | POS Sistemi Yardım ve Destek | YourBrand POS",
+  title: "Destek Merkezi | POS Sistemi Yardım ve Destek | Quick Order",
   description: "POS sistemi destek merkezi. SSS, kullanım kılavuzları, video eğitimler ve teknik destek. 7/24 müşteri desteği ile yanınızdayız.",
   alternates: {
-    canonical: "https://yourbrand.com/support",
+    canonical: "https://quickorder.com.tr/support",
   },
   openGraph: {
     title: "Destek Merkezi | POS Sistemi Yardım ve Destek",
     description: "POS sistemi destek merkezi. SSS, kullanım kılavuzları ve teknik destek. 7/24 müşteri desteği.",
     type: "website",
     locale: "tr_TR",
-    url: "https://yourbrand.com/support",
+    url: "https://quickorder.com.tr/support",
   },
   twitter: {
     card: "summary_large_image",

@@ -10,7 +10,7 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-2">
             <Link href="/" className="text-2xl font-bold text-white mb-4 block">
-              YourBrand POS
+              Quick Order
             </Link>
             <p className="text-gray-400 mb-6 max-w-sm">
               Restoran, kafe ve bar işletmeleri için bulut tabanlı POS sistemi.
@@ -147,14 +147,6 @@ export default function Footer() {
                   Online Sipariş
                 </Link>
               </li>
-              <li>
-                <Link
-                  href="/integrations"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  Entegrasyonlar
-                </Link>
-              </li>
             </ul>
           </div>
 
@@ -188,7 +180,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/resources/comparisons/adisyo-vs-yourbrand"
+                  href="/resources/comparisons"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Karşılaştırmalar
@@ -210,7 +202,7 @@ export default function Footer() {
         <div className="mt-12 pt-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
-              © {currentYear} YourBrand POS. Tüm hakları saklıdır.
+              © {currentYear} Quick Order. Tüm hakları saklıdır.
             </div>
             <div className="flex flex-wrap gap-6 text-sm">
               <Link

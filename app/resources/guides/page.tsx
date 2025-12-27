@@ -2,17 +2,17 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "POS Sistemi Rehberleri | Kullanım Kılavuzları ve İpuçları | YourBrand POS",
+  title: "POS Sistemi Rehberleri | Kullanım Kılavuzları ve İpuçları | Quick Order",
   description: "POS sistemi kullanım rehberleri, kılavuzlar ve ipuçları. Kurulum, özellikler, raporlama ve daha fazlası hakkında detaylı rehberler.",
   alternates: {
-    canonical: "https://yourbrand.com/resources/guides",
+    canonical: "https://quickorder.com.tr/resources/guides",
   },
   openGraph: {
     title: "POS Sistemi Rehberleri | Kullanım Kılavuzları ve İpuçları",
     description: "POS sistemi kullanım rehberleri, kılavuzlar ve ipuçları. Kurulum, özellikler ve raporlama hakkında detaylı rehberler.",
     type: "website",
     locale: "tr_TR",
-    url: "https://yourbrand.com/resources/guides",
+    url: "https://quickorder.com.tr/resources/guides",
   },
   twitter: {
     card: "summary_large_image",

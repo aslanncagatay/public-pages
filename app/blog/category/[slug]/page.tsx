@@ -24,21 +24,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `${category.name} | YourBrand POS Blog`,
+    title: `${category.name} | Quick Order Blog`,
     description: category.description,
     alternates: {
-      canonical: `https://yourbrand.com/blog/category/${slug}`,
+      canonical: `https://quickorder.com.tr/blog/category/${slug}`,
     },
     openGraph: {
-      title: `${category.name} | YourBrand POS Blog`,
+      title: `${category.name} | Quick Order Blog`,
       description: category.description,
       type: "website",
       locale: "tr_TR",
-      url: `https://yourbrand.com/blog/category/${slug}`,
+      url: `https://quickorder.com.tr/blog/category/${slug}`,
     },
     twitter: {
       card: "summary_large_image",
-      title: `${category.name} | YourBrand POS Blog`,
+      title: `${category.name} | Quick Order Blog`,
       description: category.description,
     },
   };

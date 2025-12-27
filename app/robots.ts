@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next'
 
-const baseUrl = 'https://yourbrand.com'
+const baseUrl = 'https://quickorder.com.tr'
 
 export default function robots(): MetadataRoute.Robots {
   return {

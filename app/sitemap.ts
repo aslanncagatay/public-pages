@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 import { blogPosts } from './blog/data'
 
-const baseUrl = 'https://yourbrand.com'
+const baseUrl = 'https://quickorder.com.tr'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const currentDate = new Date()
@@ -126,13 +126,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
-      url: `${baseUrl}/resources/comparisons/adisyo-vs-yourbrand`,
-      lastModified: currentDate,
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/resources/comparisons/menulux-vs-yourbrand`,
+      url: `${baseUrl}/resources/comparisons`,
       lastModified: currentDate,
       changeFrequency: 'monthly',
       priority: 0.8,

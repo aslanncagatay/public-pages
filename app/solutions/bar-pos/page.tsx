@@ -6,14 +6,14 @@ export const metadata: Metadata = {
   title: "Bar POS Sistemi | Barlar ve Gece Kulüpleri İçin POS Yazılımı",
   description: "Barlar ve gece kulüpleri için özel tasarlanmış POS sistemi. Stok yönetimi, komisyon takibi, gece raporları ve detaylı analitik. Bar işletmenizi profesyonelleştirin.",
   alternates: {
-    canonical: "https://yourbrand.com/solutions/bar-pos",
+    canonical: "https://quickorder.com.tr/solutions/bar-pos",
   },
   openGraph: {
     title: "Bar POS Sistemi | Barlar ve Gece Kulüpleri İçin POS Yazılımı",
     description: "Barlar ve gece kulüpleri için özel tasarlanmış POS sistemi. Stok yönetimi, komisyon takibi ve gece raporları.",
     type: "website",
     locale: "tr_TR",
-    url: "https://yourbrand.com/solutions/bar-pos",
+    url: "https://quickorder.com.tr/solutions/bar-pos",
   },
   twitter: {
     card: "summary_large_image",
@@ -86,11 +86,19 @@ export default function BarPOSPage() {
                   </Link>
                 </div>
               </div>
-              <div className="relative h-96 lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
-                <div className="absolute inset-0 bg-gradient-to-br from-purple-600 to-indigo-800 flex items-center justify-center">
-                  <span className="text-white/50 text-lg">Bar POS Görseli</span>
+              <div className="hidden md:block">
+                <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
+                  <div className="rounded-xl p-6 relative h-96 lg:h-[500px] overflow-hidden">
+                    <Image
+                      src="/web/stock.png"
+                      alt="Bar POS Sistemi - İçki Stok Yönetimi ve Envanter Takibi"
+                      fill
+                      className="object-contain"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      priority
+                    />
+                  </div>
                 </div>
-                {/* Placeholder for bar image */}
               </div>
             </div>
           </div>
@@ -143,9 +151,17 @@ export default function BarPOSPage() {
                   </li>
                 </ul>
               </div>
-              <div className="relative h-96 rounded-2xl overflow-hidden shadow-xl">
-                <div className="absolute inset-0 bg-gradient-to-br from-purple-600 to-indigo-700 flex items-center justify-center">
-                  <span className="text-white/50 text-lg">Çözüm Görseli</span>
+              <div className="hidden md:block">
+                <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
+                  <div className="rounded-xl p-6 relative h-96 overflow-hidden">
+                    <Image
+                      src="/mobile/reports-eod.jpeg"
+                      alt="Bar POS - Mobil Gece Sonu Raporları, Satış ve Stok Raporları"
+                      fill
+                      className="object-contain"
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                    />
+                  </div>
                 </div>
               </div>
             </div>

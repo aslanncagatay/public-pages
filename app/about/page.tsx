@@ -2,21 +2,21 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Hakkımızda | YourBrand POS | Restoran POS Sistemi Hikayemiz",
-  description: "YourBrand POS hakkında. Restoran, kafe ve bar işletmeleri için bulut tabanlı POS sistemi geliştiren ekibimiz ve misyonumuz. 10,000+ işletmeye hizmet veriyoruz.",
+  title: "Hakkımızda | Quick Order | Restoran POS Sistemi Hikayemiz",
+  description: "Quick Order hakkında. Restoran, kafe ve bar işletmeleri için bulut tabanlı POS sistemi geliştiren ekibimiz ve misyonumuz. 10,000+ işletmeye hizmet veriyoruz.",
   alternates: {
-    canonical: "https://yourbrand.com/about",
+    canonical: "https://quickorder.com.tr/about",
   },
   openGraph: {
-    title: "Hakkımızda | YourBrand POS",
+    title: "Hakkımızda | Quick Order",
     description: "Restoran, kafe ve bar işletmeleri için bulut tabanlı POS sistemi geliştiren ekibimiz ve misyonumuz.",
     type: "website",
     locale: "tr_TR",
-    url: "https://yourbrand.com/about",
+    url: "https://quickorder.com.tr/about",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hakkımızda | YourBrand POS",
+    title: "Hakkımızda | Quick Order",
     description: "10,000+ işletmeye hizmet veren POS sistemi ekibimiz ve misyonumuz.",
   },
 };
@@ -24,9 +24,9 @@ export const metadata: Metadata = {
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "YourBrand POS",
-  url: "https://yourbrand.com",
-  logo: "https://yourbrand.com/logo.png",
+  name: "Quick Order",
+  url: "https://quickorder.com.tr",
+  logo: "https://quickorder.com.tr/logo.png",
   description: "Restoran, kafe ve bar işletmeleri için bulut tabanlı POS sistemi",
   foundingDate: "2020",
   numberOfEmployees: "50-100",
@@ -120,7 +120,7 @@ export default function About() {
                 Hikayemiz
               </h2>
               <p className="text-xl text-gray-700 leading-relaxed mb-6">
-                2020 yılında kurulan YourBrand POS, restoran, kafe ve bar işletmelerinin dijital dönüşümüne öncülük etmek amacıyla yola çıktı. Geleneksel POS sistemlerinin karmaşıklığı ve yüksek maliyetleri karşısında, işletmelerin ihtiyaçlarına uygun, kullanımı kolay ve ekonomik bir çözüm sunmak için çalışıyoruz.
+                2020 yılında kurulan Quick Order, restoran, kafe ve bar işletmelerinin dijital dönüşümüne öncülük etmek amacıyla yola çıktı. Geleneksel POS sistemlerinin karmaşıklığı ve yüksek maliyetleri karşısında, işletmelerin ihtiyaçlarına uygun, kullanımı kolay ve ekonomik bir çözüm sunmak için çalışıyoruz.
               </p>
               <p className="text-xl text-gray-700 leading-relaxed mb-6">
                 Bugün 10,000+ işletmeye hizmet veriyoruz. Müşterilerimizin başarısı bizim başarımızdır. Bu yüzden sürekli gelişim ve yenilik odaklı çalışıyor, teknolojinin en son imkanlarını kullanarak en iyi çözümleri sunuyoruz.

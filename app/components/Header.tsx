@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import MobileMenu from "./MobileMenu";
 
 export default function Header() {
@@ -8,8 +9,15 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link href="/" className="text-2xl font-bold text-indigo-600">
-              YourBrand POS
+            <Link href="/" className="flex items-center">
+              <Image
+                src="/logos/quickorder-logo.png"
+                alt="Quick Order Logo"
+                width={140}
+                height={40}
+                className="h-8 w-auto"
+                priority
+              />
             </Link>
           </div>
 

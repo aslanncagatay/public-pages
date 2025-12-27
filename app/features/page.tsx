@@ -1,18 +1,19 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "POS Sistemi Özellikleri | Restoran POS Yazılımı Özellikleri",
   description: "Bulut tabanlı POS sisteminin tüm özellikleri: QR menü, online sipariş, stok takibi, raporlama, mobil uygulama ve daha fazlası. İşletmenizi büyüten özellikler.",
   alternates: {
-    canonical: "https://yourbrand.com/features",
+    canonical: "https://quickorder.com.tr/features",
   },
   openGraph: {
     title: "POS Sistemi Özellikleri | Restoran POS Yazılımı Özellikleri",
     description: "Bulut tabanlı POS sisteminin tüm özellikleri: QR menü, online sipariş, stok takibi, raporlama ve daha fazlası.",
     type: "website",
     locale: "tr_TR",
-    url: "https://yourbrand.com/features",
+    url: "https://quickorder.com.tr/features",
   },
   twitter: {
     card: "summary_large_image",
@@ -24,7 +25,7 @@ export const metadata: Metadata = {
 const softwareApplicationSchema = {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  name: "YourBrand POS",
+  name: "Quick Order",
   applicationCategory: "BusinessApplication",
   operatingSystem: "Web, iOS, Android",
   offers: {
@@ -79,6 +80,180 @@ export default function Features() {
               >
                 Demo İste
               </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* Entegrasyonlar Section */}
+        <section className="py-20 bg-gradient-to-b from-white to-gray-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+                Güçlü Entegrasyonlar
+              </h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Türkiye'nin önde gelen e-ticaret ve teslimat platformlarıyla sorunsuz entegrasyon. 
+                Siparişlerinizi tek panelden yönetin, operasyonel verimliliğinizi artırın.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 lg:gap-8">
+              {/* Trendyol */}
+              <div className="bg-white p-6 rounded-2xl border-2 border-gray-200 hover:border-indigo-400 transition-all shadow-lg hover:shadow-2xl group">
+                <div className="relative h-20 mb-4 flex items-center justify-center">
+                  <Image
+                    src="/logos/trendyol-logo.png"
+                    alt="Trendyol Entegrasyonu"
+                    width={160}
+                    height={80}
+                    className="object-contain max-h-16 w-auto group-hover:scale-105 transition-transform"
+                    priority
+                  />
+                </div>
+                <h3 className="text-lg font-bold text-gray-900 mb-2 text-center">Trendyol</h3>
+                <p className="text-sm text-gray-600 text-center leading-relaxed">
+                  Siparişlerinizi tek panelden yönetin. Otomatik sipariş aktarımı ve stok senkronizasyonu.
+                </p>
+              </div>
+
+              {/* Migros */}
+              <div className="bg-white p-6 rounded-2xl border-2 border-gray-200 hover:border-indigo-400 transition-all shadow-lg hover:shadow-2xl group">
+                <div className="relative h-20 mb-4 flex items-center justify-center">
+                  <Image
+                    src="/logos/migros-logo.png"
+                    alt="Migros Entegrasyonu"
+                    width={160}
+                    height={80}
+                    className="object-contain max-h-16 w-auto group-hover:scale-105 transition-transform"
+                    priority
+                  />
+                </div>
+                <h3 className="text-lg font-bold text-gray-900 mb-2 text-center">Migros</h3>
+                <p className="text-sm text-gray-600 text-center leading-relaxed">
+                  Market siparişlerinizi merkezi yapıda yönetin. Operasyonel yük azalır, süreçler hızlanır.
+                </p>
+              </div>
+
+              {/* Getir */}
+              <div className="bg-white p-6 rounded-2xl border-2 border-gray-200 hover:border-indigo-400 transition-all shadow-lg hover:shadow-2xl group">
+                <div className="relative h-20 mb-4 flex items-center justify-center">
+                  <Image
+                    src="/logos/getir-logo.png"
+                    alt="Getir Entegrasyonu"
+                    width={160}
+                    height={80}
+                    className="object-contain max-h-16 w-auto group-hover:scale-105 transition-transform"
+                    priority
+                  />
+                </div>
+                <h3 className="text-lg font-bold text-gray-900 mb-2 text-center">Getir</h3>
+                <p className="text-sm text-gray-600 text-center leading-relaxed">
+                  Hızlı teslimat siparişlerinizi anlık yönetin. Yoğun saatlerde bile kontrol sizde.
+                </p>
+              </div>
+
+              {/* Yemek Sepeti */}
+              <div className="bg-white p-6 rounded-2xl border-2 border-gray-200 hover:border-indigo-400 transition-all shadow-lg hover:shadow-2xl group">
+                <div className="relative h-20 mb-4 flex items-center justify-center">
+                  <Image
+                    src="/logos/yemeksepeti-logo.png"
+                    alt="Yemek Sepeti Entegrasyonu"
+                    width={160}
+                    height={80}
+                    className="object-contain max-h-16 w-auto group-hover:scale-105 transition-transform"
+                    priority
+                  />
+                </div>
+                <h3 className="text-lg font-bold text-gray-900 mb-2 text-center">Yemek Sepeti</h3>
+                <p className="text-sm text-gray-600 text-center leading-relaxed">
+                  Online siparişlerinizi manuel müdahale olmadan yönetin. Menü ve stok bilgileri güncel kalır.
+                </p>
+              </div>
+
+              {/* MaxiJett */}
+              <div className="bg-white p-6 rounded-2xl border-2 border-gray-200 hover:border-indigo-400 transition-all shadow-lg hover:shadow-2xl group">
+                <div className="relative h-20 mb-4 flex items-center justify-center">
+                  <Image
+                    src="/logos/maxijett-logo.png"
+                    alt="MaxiJett Entegrasyonu"
+                    width={160}
+                    height={80}
+                    className="object-contain max-h-16 w-auto group-hover:scale-105 transition-transform"
+                  />
+                </div>
+                <h3 className="text-lg font-bold text-gray-900 mb-2 text-center">MaxiJett</h3>
+                <p className="text-sm text-gray-600 text-center leading-relaxed">
+                  Kurye ve teslimat süreçlerinizi tek noktadan takip edin. Gönderi durumu anlık izlenebilir.
+                </p>
+              </div>
+
+              {/* Hesap Kurye */}
+              <div className="bg-white p-6 rounded-2xl border-2 border-gray-200 hover:border-indigo-400 transition-all shadow-lg hover:shadow-2xl group">
+                <div className="relative h-20 mb-4 flex items-center justify-center">
+                  <Image
+                    src="/logos/hesap-kurye-logo.png"
+                    alt="Hesap Kurye Entegrasyonu"
+                    width={160}
+                    height={80}
+                    className="object-contain max-h-16 w-auto group-hover:scale-105 transition-transform"
+                  />
+                </div>
+                <h3 className="text-lg font-bold text-gray-900 mb-2 text-center">Hesap Kurye</h3>
+                <p className="text-sm text-gray-600 text-center leading-relaxed">
+                  Ekonomik ve planlı teslimat yönetimi. Siparişler otomatik kuryeye yönlendirilir.
+                </p>
+              </div>
+
+              {/* Hızır Kurye */}
+              <div className="bg-white p-6 rounded-2xl border-2 border-gray-200 hover:border-indigo-400 transition-all shadow-lg hover:shadow-2xl group">
+                <div className="relative h-20 mb-4 flex items-center justify-center">
+                  <Image
+                    src="/logos/hizir-kurye-logo.png"
+                    alt="Hızır Kurye Entegrasyonu"
+                    width={160}
+                    height={80}
+                    className="object-contain max-h-16 w-auto group-hover:scale-105 transition-transform"
+                  />
+                </div>
+                <h3 className="text-lg font-bold text-gray-900 mb-2 text-center">Hızır Kurye</h3>
+                <p className="text-sm text-gray-600 text-center leading-relaxed">
+                  Hızlı ve acil teslimatlarınızı kolayca yönetin. Kurye atama gerçek zamanlı takip edilir.
+                </p>
+              </div>
+
+              {/* Fiyuu */}
+              <div className="bg-white p-6 rounded-2xl border-2 border-gray-200 hover:border-indigo-400 transition-all shadow-lg hover:shadow-2xl group">
+                <div className="relative h-20 mb-4 flex items-center justify-center">
+                  <Image
+                    src="/logos/fiyuu-logo.png"
+                    alt="Fiyuu Entegrasyonu"
+                    width={160}
+                    height={80}
+                    className="object-contain max-h-16 w-auto group-hover:scale-105 transition-transform"
+                  />
+                </div>
+                <h3 className="text-lg font-bold text-gray-900 mb-2 text-center">Fiyuu</h3>
+                <p className="text-sm text-gray-600 text-center leading-relaxed">
+                  Güçlü lojistik altyapısından faydalanın. Teslimat süreçleri tek panelden kontrol edilir.
+                </p>
+              </div>
+
+              {/* iyzico */}
+              <div className="bg-white p-6 rounded-2xl border-2 border-gray-200 hover:border-indigo-400 transition-all shadow-lg hover:shadow-2xl group">
+                <div className="relative h-20 mb-4 flex items-center justify-center">
+                  <Image
+                    src="/logos/iyzico-logo.png"
+                    alt="iyzico Entegrasyonu"
+                    width={160}
+                    height={80}
+                    className="object-contain max-h-16 w-auto group-hover:scale-105 transition-transform"
+                  />
+                </div>
+                <h3 className="text-lg font-bold text-gray-900 mb-2 text-center">iyzico</h3>
+                <p className="text-sm text-gray-600 text-center leading-relaxed">
+                  Güvenli sanal ödeme altyapısı. Kredi kartı, banka kartı ve dijital cüzdan ödemeleri tek platformdan.
+                </p>
+              </div>
             </div>
           </div>
         </section>

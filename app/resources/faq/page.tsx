@@ -2,17 +2,17 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "POS Sistemi SSS | Sıkça Sorulan Sorular | YourBrand POS",
+  title: "POS Sistemi SSS | Sıkça Sorulan Sorular | Quick Order",
   description: "POS sistemi hakkında sıkça sorulan sorular. Kurulum, özellikler, fiyatlandırma, güvenlik ve daha fazlası. Tüm sorularınızın cevapları burada.",
   alternates: {
-    canonical: "https://yourbrand.com/resources/faq",
+    canonical: "https://quickorder.com.tr/resources/faq",
   },
   openGraph: {
     title: "POS Sistemi SSS | Sıkça Sorulan Sorular",
     description: "POS sistemi hakkında sıkça sorulan sorular. Kurulum, özellikler, fiyatlandırma ve güvenlik.",
     type: "website",
     locale: "tr_TR",
-    url: "https://yourbrand.com/resources/faq",
+    url: "https://quickorder.com.tr/resources/faq",
   },
   twitter: {
     card: "summary_large_image",
@@ -41,14 +41,14 @@ const faqSchema = {
         text: "Kurulum süreci ortalama 5-10 dakika sürer. Hesabınızı oluşturduktan sonra menülerinizi ekleyebilir, personel hesaplarınızı açabilir ve hemen kullanmaya başlayabilirsiniz. Ücretsiz eğitim ve destek hizmetimiz mevcuttur.",
       },
     },
-    {
-      "@type": "Question",
-      name: "Hangi ödeme yöntemlerini destekliyorsunuz?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Nakit, kredi kartı, banka kartı, mobil ödeme (Apple Pay, Google Pay) ve dijital cüzdanlar dahil tüm ödeme yöntemlerini destekliyoruz. PCI-DSS uyumlu güvenli ödeme altyapımız ile müşteri bilgileriniz korunur.",
+      {
+        "@type": "Question",
+        name: "Hangi ödeme yöntemlerini destekliyorsunuz?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Nakit, kredi kartı, banka kartı ile ödeme yöntemlerini destekliyoruz. Sanal ödeme yöntemi olarak iyzico entegrasyonu mevcuttur. PCI-DSS uyumlu güvenli ödeme altyapımız ile müşteri bilgileriniz korunur.",
+        },
       },
-    },
     {
       "@type": "Question",
       name: "Verilerim güvende mi?",
@@ -138,7 +138,7 @@ export default function FAQ() {
       questions: [
         {
           q: "Hangi ödeme yöntemlerini destekliyorsunuz?",
-          a: "Nakit, kredi kartı, banka kartı, mobil ödeme (Apple Pay, Google Pay) ve dijital cüzdanlar dahil tüm ödeme yöntemlerini destekliyoruz. PCI-DSS uyumlu güvenli ödeme altyapımız ile müşteri bilgileriniz korunur.",
+          a: "Nakit, kredi kartı, banka kartı, mobil ödeme (Apple Pay, Google Pay) ve dijital cüzdanlar dahil tüm ödeme yöntemlerini destekliyoruz. Sanal ödeme yöntemi olarak iyzico entegrasyonu mevcuttur. PCI-DSS uyumlu güvenli ödeme altyapımız ile müşteri bilgileriniz korunur.",
         },
         {
           q: "Fiyatlandırma nasıl?",

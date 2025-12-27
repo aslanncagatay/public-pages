@@ -3,16 +3,16 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "KVKK Aydınlatma Metni | Kişisel Verilerin Korunması",
-  description: "YourBrand POS KVKK aydınlatma metni. Kişisel verilerinizin nasıl toplandığı, işlendiği ve korunduğu hakkında bilgi edinin. 6698 sayılı KVKK uyumlu.",
+  description: "Quick Order KVKK aydınlatma metni. Kişisel verilerinizin nasıl toplandığı, işlendiği ve korunduğu hakkında bilgi edinin. 6698 sayılı KVKK uyumlu.",
   alternates: {
-    canonical: "https://yourbrand.com/legal/kvkk",
+    canonical: "https://quickorder.com.tr/legal/kvkk",
   },
   openGraph: {
     title: "KVKK Aydınlatma Metni | Kişisel Verilerin Korunması",
-    description: "YourBrand POS KVKK aydınlatma metni. Kişisel verilerinizin nasıl korunduğu hakkında bilgi edinin.",
+    description: "Quick Order KVKK aydınlatma metni. Kişisel verilerinizin nasıl korunduğu hakkında bilgi edinin.",
     type: "website",
     locale: "tr_TR",
-    url: "https://yourbrand.com/legal/kvkk",
+    url: "https://quickorder.com.tr/legal/kvkk",
   },
   robots: {
     index: true,
@@ -48,10 +48,10 @@ export default function KVKKPage() {
               6698 sayılı Kişisel Verilerin Korunması Kanunu (&quot;KVKK&quot;) uyarınca, kişisel verileriniz işlenirken aşağıdaki bilgileri sizlere sunmakla yükümlüyüz.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              <strong>Veri Sorumlusu:</strong> YourBrand POS<br />
-              <strong>Adres:</strong> [Şirket Adresi]<br />
-              <strong>E-posta:</strong> kvkk@yourbrand.com<br />
-              <strong>Telefon:</strong> [Telefon Numarası]
+              <strong>Veri Sorumlusu:</strong> Quick Order<br />
+              <strong>Adres:</strong> ÜNİVERSİTELER MAH. 1596 CAD. TEKNOKENT KULUÇKA MERKEZ BİNASI NO: 6 C İÇ KAPI NO: 10 ÇANKAYA/ ANKARA<br />
+              <strong>E-posta:</strong> info@quickorder.com.tr<br />
+              <strong>Telefon:</strong> +90 532 449 29 48
             </p>
           </section>
 
@@ -151,8 +151,8 @@ export default function KVKKPage() {
               KVKK kapsamındaki haklarınızı kullanmak için aşağıdaki yöntemlerden birini kullanabilirsiniz:
             </p>
             <ul className="list-disc pl-6 space-y-2 text-gray-700">
-              <li><strong>E-posta:</strong> kvkk@yourbrand.com adresine yazılı başvuru yapabilirsiniz</li>
-              <li><strong>Posta:</strong> [Şirket Adresi] adresine noter onaylı başvuru gönderebilirsiniz</li>
+              <li><strong>E-posta:</strong> info@quickorder.com.tr adresine yazılı başvuru yapabilirsiniz</li>
+              <li><strong>Posta:</strong> ÜNİVERSİTELER MAH. 1596 CAD. TEKNOKENT KULUÇKA MERKEZ BİNASI NO: 6 C İÇ KAPI NO: 10 ÇANKAYA/ ANKARA adresine noter onaylı başvuru gönderebilirsiniz</li>
               <li><strong>Web Formu:</strong> <Link href="/contact" className="text-indigo-600 hover:underline">İletişim sayfamız</Link> üzerinden başvuru yapabilirsiniz</li>
             </ul>
             <p className="text-gray-700 leading-relaxed mt-4">
@@ -198,7 +198,7 @@ export default function KVKKPage() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">13. İletişim</h2>
             <p className="text-gray-700 leading-relaxed">
-              KVKK kapsamındaki haklarınız veya kişisel verilerinizin işlenmesi hakkında sorularınız için <Link href="/contact" className="text-indigo-600 hover:underline">iletişim sayfamızdan</Link> bize ulaşabilir veya kvkk@yourbrand.com adresine e-posta gönderebilirsiniz.
+              KVKK kapsamındaki haklarınız veya kişisel verilerinizin işlenmesi hakkında sorularınız için <Link href="/contact" className="text-indigo-600 hover:underline">iletişim sayfamızdan</Link> bize ulaşabilir veya info@quickorder.com.tr adresine e-posta gönderebilirsiniz.
             </p>
           </section>
         </div>

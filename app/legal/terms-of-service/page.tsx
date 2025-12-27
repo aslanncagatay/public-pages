@@ -3,16 +3,16 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Kullanım Şartları | Hizmet Şartları ve Koşulları",
-  description: "YourBrand POS kullanım şartları. Hizmetlerimizi kullanırken uymanız gereken şartlar, haklar ve yükümlülükler. Detaylı kullanım şartları ve koşulları.",
+  description: "Quick Order kullanım şartları. Hizmetlerimizi kullanırken uymanız gereken şartlar, haklar ve yükümlülükler. Detaylı kullanım şartları ve koşulları.",
   alternates: {
-    canonical: "https://yourbrand.com/legal/terms-of-service",
+    canonical: "https://quickorder.com.tr/legal/terms-of-service",
   },
   openGraph: {
     title: "Kullanım Şartları | Hizmet Şartları ve Koşulları",
-    description: "YourBrand POS kullanım şartları. Hizmetlerimizi kullanırken uymanız gereken şartlar ve koşullar.",
+    description: "Quick Order kullanım şartları. Hizmetlerimizi kullanırken uymanız gereken şartlar ve koşullar.",
     type: "website",
     locale: "tr_TR",
-    url: "https://yourbrand.com/legal/terms-of-service",
+    url: "https://quickorder.com.tr/legal/terms-of-service",
   },
   robots: {
     index: true,
@@ -45,7 +45,7 @@ export default function TermsOfServicePage() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Kabul ve Değişiklikler</h2>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Bu Kullanım Şartları (&quot;Şartlar&quot;), YourBrand POS (&quot;Biz&quot;, &quot;Bizim&quot;, &quot;Şirket&quot;) tarafından sunulan web sitesi, mobil uygulamalar ve POS hizmetlerinin (&quot;Hizmetler&quot;) kullanımını düzenler. Hizmetlerimizi kullanarak, bu Şartları kabul etmiş sayılırsınız.
+              Bu Kullanım Şartları (&quot;Şartlar&quot;), Quick Order (&quot;Biz&quot;, &quot;Bizim&quot;, &quot;Şirket&quot;) tarafından sunulan web sitesi, mobil uygulamalar ve POS hizmetlerinin (&quot;Hizmetler&quot;) kullanımını düzenler. Hizmetlerimizi kullanarak, bu Şartları kabul etmiş sayılırsınız.
             </p>
             <p className="text-gray-700 leading-relaxed">
               Bu Şartları zaman zaman güncelleyebiliriz. Önemli değişiklikler yapıldığında sizleri bilgilendireceğiz. Güncel Şartlar her zaman bu sayfada yayınlanacaktır. Değişikliklerden sonra hizmetlerimizi kullanmaya devam etmeniz, güncellenmiş Şartları kabul ettiğiniz anlamına gelir.
@@ -55,7 +55,7 @@ export default function TermsOfServicePage() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">2. Hizmetlerin Tanımı</h2>
             <p className="text-gray-700 leading-relaxed mb-4">
-              YourBrand POS, restoran, kafe, bar ve diğer işletmeler için bulut tabanlı POS (Point of Sale) sistemi sağlar. Hizmetlerimiz şunları içerir:
+              Quick Order, restoran, kafe, bar ve diğer işletmeler için bulut tabanlı POS (Point of Sale) sistemi sağlar. Hizmetlerimiz şunları içerir:
             </p>
             <ul className="list-disc pl-6 space-y-2 text-gray-700">
               <li>Sipariş yönetimi ve işleme</li>
@@ -126,7 +126,7 @@ export default function TermsOfServicePage() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">6. Fikri Mülkiyet Hakları</h2>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Hizmetlerimiz, içeriklerimiz, logolarımız, ticari markalarımız ve diğer materyallerimiz, YourBrand POS&apos;a aittir ve telif hakkı, ticari marka ve diğer fikri mülkiyet yasaları ile korunmaktadır.
+              Hizmetlerimiz, içeriklerimiz, logolarımız, ticari markalarımız ve diğer materyallerimiz, Quick Order&apos;a aittir ve telif hakkı, ticari marka ve diğer fikri mülkiyet yasaları ile korunmaktadır.
             </p>
             <p className="text-gray-700 leading-relaxed">
               Hizmetlerimizi kullanma hakkınız, bu materyallerin sahipliğini veya kullanım haklarını size vermez. İzinsiz kopyalama, dağıtma veya kullanım yasaktır.
@@ -173,7 +173,7 @@ export default function TermsOfServicePage() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">10. Sorumluluk Sınırlaması</h2>
             <p className="text-gray-700 leading-relaxed">
-              Yasalarca izin verilen maksimum ölçüde, YourBrand POS, hizmetlerimizin kullanımından veya kullanılamamasından kaynaklanan dolaylı, arızi, özel veya sonuç olarak ortaya çıkan zararlardan sorumlu değildir. Toplam sorumluluğumuz, son 12 ay içinde ödediğiniz toplam ücretle sınırlıdır.
+              Yasalarca izin verilen maksimum ölçüde, Quick Order, hizmetlerimizin kullanımından veya kullanılamamasından kaynaklanan dolaylı, arızi, özel veya sonuç olarak ortaya çıkan zararlardan sorumlu değildir. Toplam sorumluluğumuz, son 12 ay içinde ödediğiniz toplam ücretle sınırlıdır.
             </p>
           </section>
 
@@ -231,9 +231,9 @@ export default function TermsOfServicePage() {
               Bu Kullanım Şartları hakkında sorularınız varsa, lütfen bizimle iletişime geçin:
             </p>
             <p className="text-gray-700 leading-relaxed mt-4">
-              <strong>E-posta:</strong> legal@yourbrand.com<br />
-              <strong>Adres:</strong> [Şirket Adresi]<br />
-              <strong>Telefon:</strong> [Telefon Numarası]
+              <strong>E-posta:</strong> info@quickorder.com.tr<br />
+              <strong>Adres:</strong> ÜNİVERSİTELER MAH. 1596 CAD. TEKNOKENT KULUÇKA MERKEZ BİNASI NO: 6 C İÇ KAPI NO: 10 ÇANKAYA/ ANKARA<br />
+              <strong>Telefon:</strong> +90 532 449 29 48
             </p>
             <p className="text-gray-700 leading-relaxed mt-4">
               Ayrıca <Link href="/contact" className="text-indigo-600 hover:underline">iletişim sayfamızdan</Link> da bize ulaşabilirsiniz.

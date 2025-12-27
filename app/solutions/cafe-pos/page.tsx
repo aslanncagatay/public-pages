@@ -6,14 +6,14 @@ export const metadata: Metadata = {
   title: "Kafe POS Sistemi | Kahve Dükkanları İçin POS Yazılımı",
   description: "Kahve dükkanları için özel tasarlanmış POS sistemi. Hızlı sipariş alma, stok takibi, müşteri sadakat programı ve detaylı raporlama. Kafe işletmenizi büyütün.",
   alternates: {
-    canonical: "https://yourbrand.com/solutions/cafe-pos",
+    canonical: "https://quickorder.com.tr/solutions/cafe-pos",
   },
   openGraph: {
     title: "Kafe POS Sistemi | Kahve Dükkanları İçin POS Yazılımı",
     description: "Kahve dükkanları için özel tasarlanmış POS sistemi. Hızlı sipariş alma, stok takibi ve müşteri sadakat programı.",
     type: "website",
     locale: "tr_TR",
-    url: "https://yourbrand.com/solutions/cafe-pos",
+    url: "https://quickorder.com.tr/solutions/cafe-pos",
   },
   twitter: {
     card: "summary_large_image",
@@ -86,11 +86,19 @@ export default function CafePOSPage() {
                   </Link>
                 </div>
               </div>
-              <div className="relative h-96 lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
-                <div className="absolute inset-0 bg-gradient-to-br from-amber-400 to-orange-600 flex items-center justify-center">
-                  <span className="text-white/50 text-lg">Kafe POS Görseli</span>
+              <div className="hidden md:block">
+                <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
+                  <div className="rounded-xl p-6 relative h-96 lg:h-[500px] overflow-hidden">
+                    <Image
+                      src="/web/happy-hour.png"
+                      alt="Kafe POS Sistemi - Hızlı Sipariş Yönetimi ve Sipariş Ekranı"
+                      fill
+                      className="object-contain"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      priority
+                    />
+                  </div>
                 </div>
-                {/* Placeholder for cafe image */}
               </div>
             </div>
           </div>
@@ -143,9 +151,17 @@ export default function CafePOSPage() {
                   </li>
                 </ul>
               </div>
-              <div className="relative h-96 rounded-2xl overflow-hidden shadow-xl">
-                <div className="absolute inset-0 bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center">
-                  <span className="text-white/50 text-lg">Çözüm Görseli</span>
+              <div className="hidden md:block">
+                <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
+                  <div className="rounded-xl p-6 relative h-96 overflow-hidden">
+                    <Image
+                      src="/customer-mobile/restaurant-list.jpeg"
+                      alt="Kafe POS - Mobil Tablet ile Hızlı Sipariş Alma, Barista Sipariş Alıyor"
+                      fill
+                      className="object-contain"
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                    />
+                  </div>
                 </div>
               </div>
             </div>

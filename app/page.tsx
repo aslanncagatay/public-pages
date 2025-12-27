@@ -5,14 +5,14 @@ export const metadata: Metadata = {
   title: "Restoran POS Sistemi | Bulut Tabanlı Kafe POS Yazılımı",
   description: "Restoran, kafe, fast food ve bar işletmeleri için bulut tabanlı POS sistemi. QR menü, online sipariş ve paket servis özellikleriyle işletmenizi dijitalleştirin.",
   alternates: {
-    canonical: "https://yourbrand.com",
+    canonical: "https://quickorder.com.tr",
   },
   openGraph: {
     title: "Restoran POS Sistemi | Bulut Tabanlı Kafe POS Yazılımı",
     description: "Restoran, kafe, fast food ve bar işletmeleri için bulut tabanlı POS sistemi. QR menü, online sipariş ve paket servis özellikleriyle işletmenizi dijitalleştirin.",
     type: "website",
     locale: "tr_TR",
-    url: "https://yourbrand.com",
+    url: "https://quickorder.com.tr",
   },
   twitter: {
     card: "summary_large_image",
@@ -24,9 +24,9 @@ export const metadata: Metadata = {
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "YourBrand POS",
-  url: "https://yourbrand.com",
-  logo: "https://yourbrand.com/logo.png",
+  name: "Quick Order",
+  url: "https://quickorder.com.tr",
+  logo: "https://quickorder.com.tr/logo.png",
   description: "Restoran, kafe ve bar işletmeleri için bulut tabanlı POS sistemi",
   sameAs: [
     "https://www.facebook.com/yourbrand",
@@ -45,7 +45,7 @@ const organizationSchema = {
 const softwareApplicationSchema = {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  name: "YourBrand POS",
+  name: "Quick Order",
   applicationCategory: "BusinessApplication",
   operatingSystem: "Web, iOS, Android",
   offers: {
@@ -137,14 +137,14 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               <div className="text-center">
-                <div className="text-4xl font-extrabold text-indigo-600 mb-2">10,000+</div>
+                <div className="text-4xl font-extrabold text-indigo-600 mb-2">1,000+</div>
                 <div className="text-gray-600 font-medium">Aktif İşletme</div>
                 <div className="text-sm text-gray-500 mt-1">Türkiye genelinde</div>
               </div>
               <div className="text-center">
                 <div className="text-4xl font-extrabold text-indigo-600 mb-2">4.8/5</div>
                 <div className="text-gray-600 font-medium">Müşteri Memnuniyeti</div>
-                <div className="text-sm text-gray-500 mt-1">1,250+ değerlendirme</div>
+                <div className="text-sm text-gray-500 mt-1">250+ değerlendirme</div>
               </div>
               <div className="text-center">
                 <div className="text-4xl font-extrabold text-indigo-600 mb-2">99.9%</div>

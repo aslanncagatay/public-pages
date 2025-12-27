@@ -24,17 +24,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `${post.title} | YourBrand POS Blog`,
+    title: `${post.title} | Quick Order Blog`,
     description: post.description,
     alternates: {
-      canonical: `https://yourbrand.com/blog/${post.slug}`,
+      canonical: `https://quickorder.com.tr/blog/${post.slug}`,
     },
     openGraph: {
       title: post.title,
       description: post.description,
       type: "article",
       locale: "tr_TR",
-      url: `https://yourbrand.com/blog/${post.slug}`,
+      url: `https://quickorder.com.tr/blog/${post.slug}`,
       publishedTime: post.publishedAt,
       modifiedTime: post.updatedAt || post.publishedAt,
       authors: [post.author.name],
@@ -62,7 +62,7 @@ export default async function BlogPostPage({ params }: Props) {
     "@type": "BlogPosting",
     headline: post.title,
     description: post.description,
-    image: post.image || "https://yourbrand.com/og-image.jpg",
+    image: post.image || "https://quickorder.com.tr/og-image.jpg",
     datePublished: post.publishedAt,
     dateModified: post.updatedAt || post.publishedAt,
     author: {
@@ -72,15 +72,15 @@ export default async function BlogPostPage({ params }: Props) {
     },
     publisher: {
       "@type": "Organization",
-      name: "YourBrand POS",
+      name: "Quick Order",
       logo: {
         "@type": "ImageObject",
-        url: "https://yourbrand.com/logo.png",
+        url: "https://quickorder.com.tr/logo.png",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://yourbrand.com/blog/${post.slug}`,
+      "@id": `https://quickorder.com.tr/blog/${post.slug}`,
     },
     articleSection: post.category,
     keywords: post.tags.join(", "),
@@ -94,25 +94,25 @@ export default async function BlogPostPage({ params }: Props) {
         "@type": "ListItem",
         position: 1,
         name: "Ana Sayfa",
-        item: "https://yourbrand.com",
+        item: "https://quickorder.com.tr",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Blog",
-        item: "https://yourbrand.com/blog",
+        item: "https://quickorder.com.tr/blog",
       },
       {
         "@type": "ListItem",
         position: 3,
         name: post.category,
-        item: `https://yourbrand.com/blog/category/${post.categorySlug}`,
+        item: `https://quickorder.com.tr/blog/category/${post.categorySlug}`,
       },
       {
         "@type": "ListItem",
         position: 4,
         name: post.title,
-        item: `https://yourbrand.com/blog/${post.slug}`,
+        item: `https://quickorder.com.tr/blog/${post.slug}`,
       },
     ],
   };
@@ -354,7 +354,7 @@ export default async function BlogPostPage({ params }: Props) {
             </h3>
             <div className="flex flex-wrap gap-3">
               <a
-                href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title)}&url=${encodeURIComponent(`https://yourbrand.com/blog/${post.slug}`)}`}
+                href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title)}&url=${encodeURIComponent(`https://quickorder.com.tr/blog/${post.slug}`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group px-6 py-3 bg-blue-500 text-white rounded-xl font-semibold hover:bg-blue-600 transition-all shadow-lg hover:shadow-xl hover:scale-105 flex items-center gap-2"
@@ -365,7 +365,7 @@ export default async function BlogPostPage({ params }: Props) {
                 Twitter
               </a>
               <a
-                href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(`https://yourbrand.com/blog/${post.slug}`)}`}
+                href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(`https://quickorder.com.tr/blog/${post.slug}`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group px-6 py-3 bg-blue-600 text-white rounded-xl font-semibold hover:bg-blue-700 transition-all shadow-lg hover:shadow-xl hover:scale-105 flex items-center gap-2"
@@ -376,7 +376,7 @@ export default async function BlogPostPage({ params }: Props) {
                 Facebook
               </a>
               <a
-                href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://yourbrand.com/blog/${post.slug}`)}`}
+                href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://quickorder.com.tr/blog/${post.slug}`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group px-6 py-3 bg-blue-700 text-white rounded-xl font-semibold hover:bg-blue-800 transition-all shadow-lg hover:shadow-xl hover:scale-105 flex items-center gap-2"

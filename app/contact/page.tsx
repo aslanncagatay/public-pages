@@ -2,22 +2,22 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "İletişim | YourBrand POS | Demo İste ve Destek Al",
-  description: "YourBrand POS ile iletişime geçin. Demo talep edin, teknik destek alın veya genel sorularınızı sorun. 7/24 destek hizmeti.",
+  title: "İletişim | Quick Order | Demo İste ve Destek Al",
+  description: "Quick Order ile iletişime geçin. Demo talep edin, teknik destek alın veya genel sorularınızı sorun. 7/24 destek hizmeti.",
   alternates: {
-    canonical: "https://yourbrand.com/contact",
+    canonical: "https://quickorder.com.tr/contact",
   },
   openGraph: {
-    title: "İletişim | YourBrand POS",
-    description: "YourBrand POS ile iletişime geçin. Demo talep edin, teknik destek alın veya genel sorularınızı sorun.",
+    title: "İletişim | Quick Order",
+    description: "Quick Order ile iletişime geçin. Demo talep edin, teknik destek alın veya genel sorularınızı sorun.",
     type: "website",
     locale: "tr_TR",
-    url: "https://yourbrand.com/contact",
+    url: "https://quickorder.com.tr/contact",
   },
   twitter: {
     card: "summary_large_image",
-    title: "İletişim | YourBrand POS",
-    description: "YourBrand POS ile iletişime geçin. 7/24 destek hizmeti.",
+    title: "İletişim | Quick Order",
+    description: "Quick Order ile iletişime geçin. 7/24 destek hizmeti.",
   },
 };
 
@@ -26,18 +26,25 @@ const contactPointSchema = {
   "@type": "ContactPage",
   mainEntity: {
     "@type": "Organization",
-    name: "YourBrand POS",
+    name: "Quick Order",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "ÜNİVERSİTELER MAH. 1596 CAD. TEKNOKENT KULUÇKA MERKEZ BİNASI NO: 6 C İÇ KAPI NO: 10",
+      addressLocality: "ÇANKAYA",
+      addressRegion: "ANKARA",
+      addressCountry: "TR",
+    },
     contactPoint: [
       {
         "@type": "ContactPoint",
-        telephone: "+90-850-XXX-XX-XX",
+        telephone: "+90-532-449-29-48",
         contactType: "Müşteri Hizmetleri",
         areaServed: "TR",
         availableLanguage: "Turkish",
       },
       {
         "@type": "ContactPoint",
-        email: "destek@yourbrand.com",
+        email: "info@quickorder.com.tr",
         contactType: "Teknik Destek",
         areaServed: "TR",
         availableLanguage: "Turkish",
@@ -79,12 +86,12 @@ export default function Contact() {
                   </svg>
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-3">Telefon</h3>
-                <p className="text-gray-600 mb-4">Hafta içi 09:00-18:00</p>
+                <p className="text-gray-600 mb-4">7/24 Destek</p>
                 <a
-                  href="tel:+90850XXX XX XX"
+                  href="tel:+905324492948"
                   className="text-indigo-600 font-semibold text-lg hover:underline"
                 >
-                  0850 XXX XX XX
+                  +90 532 449 29 48
                 </a>
               </div>
 
@@ -97,10 +104,10 @@ export default function Contact() {
                 <h3 className="text-2xl font-bold text-gray-900 mb-3">E-posta</h3>
                 <p className="text-gray-600 mb-4">24 saat içinde yanıt</p>
                 <a
-                  href="mailto:destek@yourbrand.com"
+                  href="mailto:info@quickorder.com.tr"
                   className="text-indigo-600 font-semibold text-lg hover:underline"
                 >
-                  destek@yourbrand.com
+                  info@quickorder.com.tr
                 </a>
               </div>
 
@@ -231,8 +238,8 @@ export default function Contact() {
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">Adres</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    Örnek Mahallesi, Teknoloji Caddesi No: 123<br />
-                    Şişli, İstanbul 34000<br />
+                    ÜNİVERSİTELER MAH. 1596 CAD. TEKNOKENT KULUÇKA MERKEZ BİNASI NO: 6 C İÇ KAPI NO: 10<br />
+                    ÇANKAYA/ ANKARA<br />
                     Türkiye
                   </p>
                 </div>

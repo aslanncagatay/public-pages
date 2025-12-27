@@ -1,18 +1,19 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "QR Menü | Temassız Dijital Menü Sistemi | Restoran QR Menü",
   description: "Temassız QR menü sistemi ile müşterileriniz menünüze anında erişsin. Fotoğraflı ürünler, çoklu dil desteği ve online sipariş entegrasyonu. Ücretsiz deneyin.",
   alternates: {
-    canonical: "https://yourbrand.com/qr-menu",
+    canonical: "https://quickorder.com.tr/qr-menu",
   },
   openGraph: {
     title: "QR Menü | Temassız Dijital Menü Sistemi",
     description: "Temassız QR menü sistemi ile müşterileriniz menünüze anında erişsin. Fotoğraflı ürünler ve çoklu dil desteği.",
     type: "website",
     locale: "tr_TR",
-    url: "https://yourbrand.com/qr-menu",
+    url: "https://quickorder.com.tr/qr-menu",
   },
   twitter: {
     card: "summary_large_image",
@@ -28,7 +29,7 @@ const productSchema = {
   description: "Temassız dijital menü sistemi. QR kod ile menü erişimi, fotoğraflı ürünler ve online sipariş entegrasyonu.",
   brand: {
     "@type": "Brand",
-    name: "YourBrand POS",
+    name: "Quick Order",
   },
   offers: {
     "@type": "Offer",
@@ -85,17 +86,15 @@ export default function QRMenu() {
               </div>
               <div className="hidden lg:block">
                 <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
-                  <div className="bg-white rounded-xl p-6 text-gray-900">
-                    <div className="w-full h-64 bg-gray-200 rounded-lg mb-4 flex items-center justify-center">
-                      <div className="text-center">
-                        <div className="w-32 h-32 bg-gray-300 rounded-lg mx-auto mb-4"></div>
-                        <p className="text-sm text-gray-600">QR Kod Önizleme</p>
-                      </div>
-                    </div>
-                    <div className="space-y-2">
-                      <div className="h-4 bg-gray-200 rounded w-3/4"></div>
-                      <div className="h-4 bg-gray-200 rounded w-1/2"></div>
-                    </div>
+                  <div className="rounded-xl p-6 relative h-96 lg:h-[500px] overflow-hidden">
+                    <Image
+                      src="/web/qr-menu.png"
+                      alt="QR Menü Sistemi - Temassız Dijital Menü Yönetimi ve QR Kod Fiyat Güncelleme"
+                      fill
+                      className="object-contain"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      priority
+                    />
                   </div>
                 </div>
               </div>

@@ -6,14 +6,14 @@ export const metadata: Metadata = {
   title: "Otel POS Sistemi | Oteller İçin Kapsamlı POS Yazılımı",
   description: "Oteller için oda servisi, spa, restoran ve bar entegrasyonu ile kapsamlı POS sistemi. Çok şubeli yönetim, detaylı raporlama ve misafir yönetimi. Otel işletmenizi dijitalleştirin.",
   alternates: {
-    canonical: "https://yourbrand.com/solutions/hotel-pos",
+    canonical: "https://quickorder.com.tr/solutions/hotel-pos",
   },
   openGraph: {
     title: "Otel POS Sistemi | Oteller İçin Kapsamlı POS Yazılımı",
     description: "Oteller için oda servisi, spa, restoran ve bar entegrasyonu ile kapsamlı POS sistemi. Çok şubeli yönetim ve misafir yönetimi.",
     type: "website",
     locale: "tr_TR",
-    url: "https://yourbrand.com/solutions/hotel-pos",
+    url: "https://quickorder.com.tr/solutions/hotel-pos",
   },
   twitter: {
     card: "summary_large_image",
@@ -86,11 +86,19 @@ export default function HotelPOSPage() {
                   </Link>
                 </div>
               </div>
-              <div className="relative h-96 lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
-                <div className="absolute inset-0 bg-gradient-to-br from-teal-400 to-cyan-600 flex items-center justify-center">
-                  <span className="text-white/50 text-lg">Otel POS Görseli</span>
+              <div className="hidden md:block">
+                <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
+                  <div className="rounded-xl p-6 relative h-96 lg:h-[500px] overflow-hidden">
+                    <Image
+                      src="/web/dashboard.png"
+                      alt="Otel POS Sistemi - Dashboard, Çok Şubeli Yönetim ve Genel Bakış"
+                      fill
+                      className="object-contain"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      priority
+                    />
+                  </div>
                 </div>
-                {/* Placeholder for hotel image */}
               </div>
             </div>
           </div>
@@ -143,9 +151,17 @@ export default function HotelPOSPage() {
                   </li>
                 </ul>
               </div>
-              <div className="relative h-96 rounded-2xl overflow-hidden shadow-xl">
-                <div className="absolute inset-0 bg-gradient-to-br from-teal-400 to-cyan-500 flex items-center justify-center">
-                  <span className="text-white/50 text-lg">Çözüm Görseli</span>
+              <div className="hidden md:block">
+                <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
+                  <div className="rounded-xl p-6 relative h-96 overflow-hidden">
+                    <Image
+                      src="/mobile/customers.jpeg"
+                      alt="Otel POS - Misafir Yönetimi ve Harcama Takibi, Oda Servisi Entegrasyonu"
+                      fill
+                      className="object-contain"
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                    />
+                  </div>
                 </div>
               </div>
             </div>

@@ -1,18 +1,19 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Online Sipariş Sistemi | Paket Servis ve Teslimat Yazılımı",
   description: "Kendi online sipariş sisteminizi oluşturun. Delivery platformlarına bağımlı kalmadan müşterilerinizle doğrudan iletişim kurun. Paket servis, teslimat ve ödeme entegrasyonu.",
   alternates: {
-    canonical: "https://yourbrand.com/online-ordering",
+    canonical: "https://quickorder.com.tr/online-ordering",
   },
   openGraph: {
     title: "Online Sipariş Sistemi | Paket Servis ve Teslimat Yazılımı",
     description: "Kendi online sipariş sisteminizi oluşturun. Delivery platformlarına bağımlı kalmadan müşterilerinizle doğrudan iletişim kurun.",
     type: "website",
     locale: "tr_TR",
-    url: "https://yourbrand.com/online-ordering",
+    url: "https://quickorder.com.tr/online-ordering",
   },
   twitter: {
     card: "summary_large_image",
@@ -28,7 +29,7 @@ const productSchema = {
   description: "Kendi online sipariş sisteminiz. Paket servis, teslimat ve ödeme entegrasyonu ile delivery platformlarına bağımlı kalmadan müşterilerinizle doğrudan iletişim kurun.",
   brand: {
     "@type": "Brand",
-    name: "YourBrand POS",
+    name: "Quick Order",
   },
   offers: {
     "@type": "Offer",
@@ -85,19 +86,15 @@ export default function OnlineOrdering() {
               </div>
               <div className="hidden lg:block">
                 <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
-                  <div className="bg-white rounded-xl p-6 text-gray-900">
-                    <div className="w-full h-64 bg-gray-200 rounded-lg mb-4 flex items-center justify-center">
-                      <div className="text-center">
-                        <svg className="w-24 h-24 text-gray-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                        </svg>
-                        <p className="text-sm text-gray-600">Online Sipariş Önizleme</p>
-                      </div>
-                    </div>
-                    <div className="space-y-2">
-                      <div className="h-4 bg-gray-200 rounded w-3/4"></div>
-                      <div className="h-4 bg-gray-200 rounded w-1/2"></div>
-                    </div>
+                  <div className="rounded-xl p-6 relative h-96 lg:h-[500px] overflow-hidden">
+                    <Image
+                      src="/customer-mobile/restaurant-list.jpeg"
+                      alt="Online Sipariş Sistemi - Müşteri Mobil Uygulaması Restoran Listesi Görünümü"
+                      fill
+                      className="object-contain"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      priority
+                    />
                   </div>
                 </div>
               </div>
